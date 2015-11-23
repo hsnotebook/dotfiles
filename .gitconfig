@@ -2,7 +2,7 @@
 	default = matching
 [core]
 	trustctime = false
-	editor = emacs
+	editor = vim
 	filemode = false
 	excludesfile = ~/.gitignore
 [color]
