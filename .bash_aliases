@@ -14,3 +14,5 @@ alias la='ls -A'
 alias vi="/usr/local/bin/vim"
 alias firefox='/home/hs/bin/firefox/firefox > /dev/null 2> /dev/null &'
 alias eclipse='/home/hs/bin/eclipse/eclipse > /dev/null 2> /dev/null &'
+alias dbeaver='/home/hs/bin/dbeaver/dbeaver > /dev/null 2> /dev/null &'
+alias gvim='/usr/bin/gvim > /dev/null 2> /dev/null &'
