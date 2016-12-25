@@ -1,5 +1,5 @@
 #!/bin/env bash
 
-echo " ~/.bash_aliases ~/.gitconfig ~/.gitignore ~/.keysnail.js ~/.tmux.conf ."
-cp ~/.bash_aliases ~/.gitconfig ~/.gitignore ~/.keysnail.js ~/.tmux.conf .
+echo "cp ~/.bash_aliases ~/.gitconfig ~/.gitignore ~/.Xmodmap ~/.tmux.conf ."
+cp ~/.bash_aliases ~/.gitconfig ~/.gitignore ~/.Xmodmap ~/.tmux.conf .
 
