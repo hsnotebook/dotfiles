@@ -20,3 +20,6 @@ ln  ./.vimperatorrc ~/.vimperatorrc
 
 echo "ln  .Xresources ~/.Xresources"
 ln  ./.Xresources ~/.Xresources
+
+echo "ln  .Xdefaults ~/.Xdefaults"
+ln  ./.Xdefaults ~/.Xdefaults
