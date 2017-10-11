@@ -40,7 +40,7 @@ end
 beautiful.init("/usr/share/awesome/themes/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "x-terminal-emulator"
+terminal = "rxvt-unicode"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -380,9 +380,11 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 autorun = true
 ss_config_dir = "/home/hs/.config/shadowsocks"
 autorun_apps = {
-	"sslocal -c "..ss_config_dir.."/config.json -d start --pid-file= "..ss_config_dir.."/shadowsocks.pid --log-file="..ss_config_dir.."/shadowsocks.log"
+	"ssclient.pl -c "..ss_config_dir.."/config.json"
 }
 if autorun then
 	for app = 1, #autorun_apps do
 		awful.util.spawn(autorun_apps[app])
+  end
+end
 -- }}}
