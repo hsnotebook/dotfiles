@@ -31,3 +31,5 @@ zathura() {
 alias dbeaver='/home/hs/local/dbeaver/dbeaver > /dev/null 2> /dev/null &'
 alias sts='/home/hs/local/sts-bundle/sts-3.9.0.RELEASE/STS > /dev/null 2> /dev/null &'
 alias docker='sudo docker'
+
+[ -f ~/.fzf_aliases ] && source ~/.fzf_aliases

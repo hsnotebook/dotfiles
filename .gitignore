@@ -1,3 +1,13 @@
 *~
 *#
 *.swp
+
+# java
+.classpath
+.project
+.settings/
+target/
+
+# flex
+bin/
+bin-debug/
