@@ -13,11 +13,11 @@ export XMODIFIERS='@im=fcitx'
 export GTK_IM_MODULE=xim
 export QT_IM_MODULE=xim
 export GTK3_IM_MODULE=xim
-export NODE_HOME=/home/hs/local/node-v6.11.3-linux-x64
+export NODE_HOME=/home/hs/software/nodejs
 export PATH=$NODE_HOME/bin:$PATH
-export JAVA_HOME=/home/hs/local/jdk1.8.0_144
+export JAVA_HOME=/home/hs/software/jdk
 export PATH=$JAVA_HOME/bin:$PATH
-export MAVEN_HOME=/home/hs/local/apache-maven-3.5.0
+export MAVEN_HOME=/home/hs/software/maven
 export PATH=$MAVEN_HOME/bin:$PATH
 
 zathura() {
@@ -29,7 +29,8 @@ zathura() {
 }
 
 alias dbeaver='/home/hs/local/dbeaver/dbeaver > /dev/null 2> /dev/null &'
-alias sts='/home/hs/local/sts-bundle/sts-3.9.0.RELEASE/STS > /dev/null 2> /dev/null &'
+alias sts='/home/hs/local/sts-bundle/sts/STS > /dev/null 2> /dev/null &'
 alias docker='sudo docker'
+alias vi='/usr/local/bin/vim'
 
 [ -f ~/.fzf_aliases ] && source ~/.fzf_aliases
