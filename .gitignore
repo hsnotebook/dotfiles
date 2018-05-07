@@ -1,13 +1,10 @@
 *~
 *#
 *.swp
-
-# java
+*.swo
 .classpath
+.factorypath
 .project
 .settings/
 target/
-
-# flex
-bin/
-bin-debug/
+\#{LOG_HOME}
