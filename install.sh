@@ -25,6 +25,11 @@ if [ ! -f ~/.tmux.conf ]; then
 	ln  ./.tmux.conf ~/.tmux.conf
 fi
 
+if [ ! -f ~/.tern-config ]; then
+	echo "ln  .tern-config ~/.tern-config"
+	ln  ./.tern-config ~/.tern-config
+fi
+
 if [ ! -f ~/.vimperatorrc ]; then
 	echo "ln  .vimperatorrc ~/.vimperatorrc"
 	ln  ./.vimperatorrc ~/.vimperatorrc

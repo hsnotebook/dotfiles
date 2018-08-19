@@ -32,5 +32,6 @@ alias dbeaver='/home/hs/software/dbeaver/dbeaver > /dev/null 2> /dev/null &'
 alias sts='/home/hs/software/sts-bundle/sts/STS > /dev/null 2> /dev/null &'
 alias umlet='sh /home/hs/software/Umlet/umlet.sh > /dev/null 2> /dev/null &'
 alias vi='/usr/local/bin/vim'
+alias idea='sh /home/hs/software/idea/bin/idea.sh > /dev/null 2> /dev/null &'
 
 [ -f ~/.fzf_aliases ] && source ~/.fzf_aliases
