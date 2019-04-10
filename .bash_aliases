@@ -9,6 +9,10 @@ alias egrep='egrep --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+
 export XMODIFIERS='@im=fcitx'
 export GTK_IM_MODULE=xim
 export QT_IM_MODULE=xim
