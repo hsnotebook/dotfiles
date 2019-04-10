@@ -32,6 +32,16 @@ zathura() {
 	fi
 }
 
+ssh() {
+	if [ "$#" -eq 0 ]; then
+		/usr/bin/ssh
+	elif [ "$#" -eq 1 ]; then
+		/usr/bin/ssh "$1" -t bash -o vi
+	else
+		/usr/bin/ssh $@
+	fi
+}
+
 alias dbeaver='/home/hs/software/dbeaver/dbeaver > /dev/null 2> /dev/null &'
 alias sts='/home/hs/software/sts-bundle/sts/STS > /dev/null 2> /dev/null &'
 alias umlet='sh /home/hs/software/Umlet/umlet.sh > /dev/null 2> /dev/null &'
