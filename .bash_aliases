@@ -1,6 +1,7 @@
 set -o vi
 
 export LC_CTYPE="zh_CN.UTF-8"
+export SWT_GTK3=0
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -43,9 +44,11 @@ ssh() {
 }
 
 alias dbeaver='/home/hs/software/dbeaver/dbeaver > /dev/null 2> /dev/null &'
-alias sts='/home/hs/software/sts-bundle/sts/STS > /dev/null 2> /dev/null &'
+alias eclipse='/home/hs/software/eclipse/eclipse > /dev/null 2> /dev/null &'
 alias umlet='sh /home/hs/software/Umlet/umlet.sh > /dev/null 2> /dev/null &'
 alias vi='/usr/local/bin/vim'
 alias idea='sh /home/hs/software/idea/bin/idea.sh > /dev/null 2> /dev/null &'
+alias postman='/home/hs/software/Postman/app/Postman > /dev/null 2> /dev/null &'
+alias pycharm='sh /home/hs/software/pycharm/bin/pycharm.sh > /dev/null 1> /dev/null &'
 
 [ -f ~/.fzf_aliases ] && source ~/.fzf_aliases
