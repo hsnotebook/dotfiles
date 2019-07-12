@@ -19,6 +19,7 @@
 [alias]
 	last = log -1 --stat
 	cp = cherry-pick
+	si = svn info
 	co = checkout
 	cl = clone
 	ci = commit

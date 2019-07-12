@@ -10,10 +10,6 @@ alias egrep='egrep --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
-alias ..='cd ..'
-alias ...='cd ../../'
-alias ....='cd ../../../'
-
 export XMODIFIERS='@im=fcitx'
 export GTK_IM_MODULE=xim
 export QT_IM_MODULE=xim
@@ -50,5 +46,3 @@ alias vi='/usr/local/bin/vim'
 alias idea='sh /home/hs/software/idea/bin/idea.sh > /dev/null 2> /dev/null &'
 alias postman='/home/hs/software/Postman/app/Postman > /dev/null 2> /dev/null &'
 alias pycharm='sh /home/hs/software/pycharm/bin/pycharm.sh > /dev/null 1> /dev/null &'
-
-[ -f ~/.fzf_aliases ] && source ~/.fzf_aliases
