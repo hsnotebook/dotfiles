@@ -1,51 +1,31 @@
 #!/bin/env bash
 
-if [ ! -f ~/.bash_aliases ]; then
-	echo "ln  .bash_aliases ~/.bash_aliases"
-	ln  ./.bash_aliases ~/.bash_aliases
-fi
+	echo "cp bash_aliases ~/.bash_aliases"
+	cp bash_aliases ~/.bash_aliases
 
-if [ ! -f ~/.gitconfig ]; then
-	echo "ln  .gitconfig ~/.gitconfig"
-	ln  ./.gitconfig ~/.gitconfig
-fi
+	echo "cp gitconfig ~/.gitconfig"
+	cp gitconfig ~/.gitconfig
 
-if [ ! -f ~/.gitignore ]; then
-	echo "ln  .gitignore ~/.gitignore"
-	ln  ./.gitignore ~/.gitignore
-fi
+	echo "cp gitignore ~/.gitignore"
+	cp gitignore ~/.gitignore
 
-if [ ! -f ~/.Xmodmap ]; then
-	echo "ln  .Xmodmap ~/.Xmodmap"
-	ln  ./.Xmodmap ~/.Xmodmap
-fi
+	echo "cp Xmodmap ~/.Xmodmap"
+	cp Xmodmap ~/.Xmodmap
 
-if [ ! -f ~/.tmux.conf ]; then
-	echo "ln  .tmux.conf ~/.tmux.conf"
-	ln  ./.tmux.conf ~/.tmux.conf
-fi
+	echo "cp  ~/.tmutmuxx.conf.conf"
+	cp  ~/.tmutmuxx.conf.conf
 
-if [ ! -f ~/.tern-config ]; then
-	echo "ln  .tern-config ~/.tern-config"
-	ln  ./.tern-config ~/.tern-config
-fi
+	echo "cp  ~/.terternn-config-config"
+	cp  ~/.terternn-config-config
 
-if [ ! -f ~/.vimperatorrc ]; then
-	echo "ln  .vimperatorrc ~/.vimperatorrc"
-	ln  ./.vimperatorrc ~/.vimperatorrc
-fi
+	echo "cp vimperatorrc ~/.vimperatorrc"
+	cp vimperatorrc ~/.vimperatorrc
 
-if [ ! -f ~/.Xresources ]; then
-	echo "ln  .Xresources ~/.Xresources"
-	ln  ./.Xresources ~/.Xresources
-fi
+	echo "cp  ~/.ii33/config-config"
+	cp  ~/.ii33/config-config
 
-if [ ! -f ~/.Xdefaults ]; then
-	echo "ln  .Xdefaults ~/.Xdefaults"
-	ln  ./.Xdefaults ~/.Xdefaults
-fi
+	echo "cp  ~/.config/ranger/riflrangere.conf-rifle.conf"
+	cp  ~/.config/ranger/riflrangere.conf-rifle.conf
 
-if [ ! -f ~/.fzf_aliases ]; then
-	echo "ln  .fzf_aliases ~/.fzf_aliases"
-	ln  ./.fzf_aliases ~/.fzf_aliases
-fi
+	echo "cp dmenurc ~/.dmenurc"
+	cp dmenurc ~/.dmenurc
