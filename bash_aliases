@@ -1,7 +1,7 @@
 set -o vi
 
 export LC_CTYPE="zh_CN.UTF-8"
-export SWT_GTK3=0
+# export SWT_GTK3=0
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -18,8 +18,8 @@ export NODE_HOME=/home/hs/software/nodejs
 export PATH=$NODE_HOME/bin:$PATH
 # export JAVA_HOME=/home/hs/software/jdk
 # export PATH=$JAVA_HOME/bin:$PATH
-export MAVEN_HOME=/home/hs/software/maven
-export PATH=$MAVEN_HOME/bin:$PATH
+# export MAVEN_HOME=/home/hs/software/maven
+# export PATH=$MAVEN_HOME/bin:$PATH
 
 # zathura() {
 # 	if [ "$#" -eq 0 ]; then

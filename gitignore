@@ -1,0 +1,17 @@
+*~
+*#
+*.swp
+*.iml
+*.swo
+.classpath
+.factorypath
+.project
+.settings/
+target/
+\#{LOG_HOME}
+logs/
+log/
+.idea/
+package-lock.json
+node_modules/
+.root
