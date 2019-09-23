@@ -12,20 +12,20 @@
 	echo "cp Xmodmap ~/.Xmodmap"
 	cp Xmodmap ~/.Xmodmap
 
-	echo "cp  ~/.tmutmuxx.conf.conf"
-	cp  ~/.tmutmuxx.conf.conf
+	echo "cp tmux.conf ~/.tmux.conf"
+	cp tmux.conf ~/.tmux.conf
 
-	echo "cp  ~/.terternn-config-config"
-	cp  ~/.terternn-config-config
+	echo "cp tern-config  ~/.tern-config"
+	cp tern-config  ~/.tern-config
 
 	echo "cp vimperatorrc ~/.vimperatorrc"
 	cp vimperatorrc ~/.vimperatorrc
 
-	echo "cp  ~/.ii33/config-config"
-	cp  ~/.ii33/config-config
+	echo "cp i3-config ~/.i3/config"
+	cp i3-config ~/.i3/config
 
-	echo "cp  ~/.config/ranger/riflrangere.conf-rifle.conf"
-	cp  ~/.config/ranger/riflrangere.conf-rifle.conf
+	echo "cp ranger-rille.conf ~/.config/ranger/rifle.conf"
+	cp ranger-rille.conf ~/.config/ranger/rifle.conf
 
 	echo "cp dmenurc ~/.dmenurc"
 	cp dmenurc ~/.dmenurc
