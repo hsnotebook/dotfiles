@@ -3,6 +3,9 @@
 	echo "cp  ~/.bash_aliases bash_aliases"
 	cp  ~/.bash_aliases bash_aliases
 
+	echo "cp  ~/.zshrc zshrc"
+	cp  ~/.zshrc zshrc
+
 	echo "cp  ~/.gitconfig gitconfig"
 	cp  ~/.gitconfig gitconfig
 
@@ -15,17 +18,8 @@
 	echo "cp  ~/.tmux.conf tmux.conf"
 	cp  ~/.tmux.conf tmux.conf
 
-	echo "cp  ~/.tern-config tern-config"
-	cp  ~/.tern-config tern-config
-
-	echo "cp  ~/.vimperatorrc vimperatorrc"
-	cp  ~/.vimperatorrc vimperatorrc
-
 	echo "cp  ~/.i3/config i3-config"
 	cp  ~/.i3/config i3-config
 
 	echo "cp  ~/.config/ranger/rifle.conf ranger-rifle.conf"
 	cp  ~/.config/ranger/rifle.conf ranger-rifle.conf
-
-	echo "cp  ~/.dmenurc dmenurc"
-	cp  ~/.dmenurc dmenurc

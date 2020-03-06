@@ -3,6 +3,9 @@
 	echo "cp bash_aliases ~/.bash_aliases"
 	cp bash_aliases ~/.bash_aliases
 
+	echo "cp zshrc ~/.zshrc"
+	cp zshrc ~/.zshrc
+
 	echo "cp gitconfig ~/.gitconfig"
 	cp gitconfig ~/.gitconfig
 

@@ -12,3 +12,8 @@ npm set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass # node-sass �
 npm set electron_mirror http://cdn.npm.taobao.org/dist/electron/ # electron 二进制包镜像
 npm set selenium_cdnurl=http://npm.taobao.org/mirrors/selenium
 npm set node_inspector_cdnurl=https://npm.taobao.org/mirrors/node-inspector
+
+for host in 'kdfj kjf sldkf'
+do
+done
+
