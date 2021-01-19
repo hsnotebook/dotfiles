@@ -110,13 +110,13 @@ bindkey '^r' history-incremental-search-backward
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-export LC_CTYPE="zh_CN.UTF-8"
-export XMODIFIERS='@im=fcitx'
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export GTK3_IM_MODULE=fcitx
-export NODE_HOME=/home/hs/software/nodejs
-export PATH=$NODE_HOME/bin:$PATH
+# export LC_CTYPE="zh_CN.UTF-8"
+# export XMODIFIERS='@im=fcitx'
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx
+# export GTK3_IM_MODULE=fcitx
+# export NODE_HOME=/home/hs/software/nodejs
+# export PATH=$NODE_HOME/bin:$PATH
 
 set -o vi
 
@@ -147,8 +147,8 @@ ssh() {
 }
 
 alias vi='/usr/bin/nvim'
-alias umlet='java -jar /home/hs/software/Umlet/umlet.jar > /dev/null 2> /dev/null  &'
-alias wechat='/opt/deepinwine/apps/Deepin-WeChat/run.sh > /dev/null 2> /dev/null  &'
+# alias umlet='java -jar /home/hs/software/Umlet/umlet.jar > /dev/null 2> /dev/null  &'
+# alias wechat='/opt/deepinwine/apps/Deepin-WeChat/run.sh > /dev/null 2> /dev/null  &'
 alias proxy='ALL_PROXY=socks5://127.0.0.1:1080'
 alias emacs='LC_CTYPE=zh_CN.UTF-8 emacs > /dev/null 2> /dev/null &'
 
@@ -157,3 +157,5 @@ source ~/.ctfo_aliases
 export EDITOR=/usr/bin/nvim
 
 eval $(thefuck --alias)
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

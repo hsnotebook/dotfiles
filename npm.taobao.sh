@@ -13,7 +13,3 @@ npm set electron_mirror http://cdn.npm.taobao.org/dist/electron/ # electron дЇМи
 npm set selenium_cdnurl=http://npm.taobao.org/mirrors/selenium
 npm set node_inspector_cdnurl=https://npm.taobao.org/mirrors/node-inspector
 
-for host in 'kdfj kjf sldkf'
-do
-done
-

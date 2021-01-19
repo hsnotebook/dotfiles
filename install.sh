@@ -27,8 +27,8 @@
 	echo "cp i3-config ~/.i3/config"
 	cp i3-config ~/.i3/config
 
-	echo "cp ranger-rille.conf ~/.config/ranger/rifle.conf"
-	cp ranger-rille.conf ~/.config/ranger/rifle.conf
+	echo "cp rille.conf ~/.config/ranger/rifle.conf"
+	cp rille.conf ~/.config/ranger/rifle.conf
 
 	echo "cp dmenurc ~/.dmenurc"
 	cp dmenurc ~/.dmenurc

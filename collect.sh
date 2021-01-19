@@ -21,5 +21,5 @@
 	echo "cp  ~/.i3/config i3-config"
 	cp  ~/.i3/config i3-config
 
-	echo "cp  ~/.config/ranger/rifle.conf ranger-rifle.conf"
-	cp  ~/.config/ranger/rifle.conf ranger-rifle.conf
+	echo "cp  ~/.config/ranger/rifle.conf rifle.conf"
+	cp  ~/.config/ranger/rifle.conf rifle.conf
